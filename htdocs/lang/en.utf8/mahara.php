@@ -1456,3 +1456,56 @@ $string['institutionmembershipdescription'] = 'You can see your institution memb
 $string['institutionmembershiprequestsdescription'] = 'You have requested to join the following institutions.';
 $string['institutionmembershipinvitedescription'] = 'An administrator has invited you to join the following institutions.';
 $string['institutionmembershipjoindescription'] = 'You can send a request to join an institution. The "Institution ID" field is for setting the student ID for this institution.';
+
+// Account updating via CSV upload
+$string['accountupdated'] = '%s: Account updated';
+$string['accountupdatedheading'] = 'Dear %s,
+Your account or profile have been updated for you on %s. Your details are as follows:
+
+Username: %s
+
+';
+$string['accountupdatedheadinghtml'] = '<p>Dear %s,</p>
+<p>Your account or profile have been updated for you on %s. Your details are as follows: </p>
+
+<ul>
+<li> Username: %s </li>
+</ul>
+';
+$string['accountupdatednewinstitution'] = '
+You have been added to a new institution: %s
+';
+$string['accountupdatednewinstitutionhtml'] = '
+<p> You have been <b> added </b> to a new institution: %s </p>
+';
+$string['accountupdatedremovedinstitutions'] = '
+You have been removed from the following institution(s): %s
+';
+$string['accountupdatedremovedinstitutionshtml'] = '
+<p> You have been <b> removed </b> from the following institution(s): <br /> %s </p>
+';
+$string['accountupdatedpasswordreset'] = '
+You are required to change your password.
+Please use the following link to reset it.
+
+%s
+
+Note this link expires at %s (%s time)
+';
+$string['accountupdatedpasswordresethtml'] = '
+<p>
+You are required to change your password.
+Please use the following link to reset it.
+
+<br />
+<b> <a href="%s"> %s </a> </b>
+<br />
+
+Note this link expires at %s (%s time)
+</p>
+';
+$string['accountupdateresetpasslink'] = '%sforgotpass.php?key=%s';
+$string['accountupdatefooter'] = '
+Regards, %s site administrator';
+$string['accountupdatefooterhtml'] = '
+<p>Regards, <i>%s site administrator</i></p>';
